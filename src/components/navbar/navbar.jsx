@@ -18,7 +18,7 @@ function NavBar() {
     <Navbar expand="lg" className="bg-body-secondary sticky-top" id='navbar'>
       <Container fluid>
         <Navbar.Brand as={Router} to={"/"} className='fs-3 fw-bold'>
-          <span className="fs-2">E-</span>comm<span className="text-danger"><span className="fs-2">erce</span>one</span>
+          <span className="fs-2">E-</span>com<span className="text-danger"><span className="fs-2">merce</span></span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
