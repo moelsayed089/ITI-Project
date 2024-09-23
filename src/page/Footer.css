@@ -1,5 +1,5 @@
 footer {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 #features {
@@ -20,8 +20,11 @@ footer {
 #footer-content ul li a {
     text-decoration: none;
     color: #968cb3;
+    transition: 0.3s;
 }
-
+#footer-content ul li a:hover {
+    color: red !important;
+  }
 #copyright-social {
     display: flex;
     flex-direction: row;
@@ -44,11 +47,6 @@ footer {
         grid-column: 1/3;
         margin-bottom: 30px;
     }
-
-    #footer-content ul {
-        margin-left: -10%;
-    }
-
     #copyright {
         font-size: 1.8vw;
     }
