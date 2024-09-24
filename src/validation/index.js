@@ -41,8 +41,9 @@ export const InputValidation = (values) => {
   if(values.image.length < 4 || values.image.length > 999){
     errors.image = "Image must be form 4 characters to 999 characters";
   }
-  if(values.description.length < 4 || values.description.length > 15){    
-    errors.description = "Description must be form 4 characters to 15 characters";
+  if (values.description.length < 4 || values.description.length > 1000) {
+    errors.description =
+      "Description must be form 4 characters to 1000 characters";
   }
 
   const ratingNumber = Number(values.rating);

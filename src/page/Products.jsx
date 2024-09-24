@@ -9,7 +9,7 @@ const Products = () => {
     const [order, setOrder] = useState("asc");
     const [limit, setLimit] = useState(6);
     const [sortBy, setSortBy] = useState("price");
-    const [category, setCategory] = useState("laptops");
+    const [category, setCategory] = useState("smartphones");
 
 
     const categories = [
