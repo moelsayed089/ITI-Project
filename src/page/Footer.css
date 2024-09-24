@@ -22,7 +22,7 @@ footer {
     color: #968cb3;
     transition: 0.3s;
 }
-#footer-content ul li a:hover {
+#footer-content a:hover {
     color: red !important;
   }
 #copyright-social {
